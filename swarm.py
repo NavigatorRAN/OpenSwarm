@@ -34,6 +34,8 @@ def create_agency(load_threads_callback=None):
     from image_generation_agent import create_image_generation_agent
     from visual_strategy_agent import create_visual_strategy_agent
 
+from vwmedia_proposal_swarm import create_vwmedia_agency as create_vwmedia_proposal_swarm
+
     orchestrator = create_orchestrator()
     virtual_assistant = create_virtual_assistant()
     deep_research = create_deep_research()
@@ -43,6 +45,7 @@ def create_agency(load_threads_callback=None):
     video_generation_agent = create_video_generation_agent()
     image_generation_agent = create_image_generation_agent()
     visual_strategy_agent = create_visual_strategy_agent()
+    vwmedia_proposal = create_vwmedia_proposal_swarm()
 
     all_agents = [
         orchestrator,
@@ -54,6 +57,7 @@ def create_agency(load_threads_callback=None):
         video_generation_agent,
         image_generation_agent,
         visual_strategy_agent,
+        vwmedia_proposal,
     ]
 
     send_message_flows = [
