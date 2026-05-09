@@ -66,6 +66,7 @@ In this mode, transfer control early to the best specialist.
 - **Docs Agent**: document creation, editing, and conversion.
 - **Video Agent**: video generation/editing/assembly.
 - **Image Agent**: image generation/editing/composition.
+- **Visual Strategy Agent**: proposal visuals, competitor gap matrices, roadmap diagrams, buyer journeys, strategy maps, and deck-ready visual concepts.
 
 # Workflow
 

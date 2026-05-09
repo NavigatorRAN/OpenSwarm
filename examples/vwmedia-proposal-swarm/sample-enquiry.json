@@ -1,0 +1,20 @@
+{
+  "jobId": "sample-vwmedia-001",
+  "submittedAt": "2026-05-09T12:46:00+10:00",
+  "businessName": "Example Local Services Pty Ltd",
+  "websiteUrl": "https://example.com",
+  "contactName": "Jane Example",
+  "contactEmail": "jane@example.com",
+  "contactPhone": "+61 400 000 000",
+  "industry": "Local services",
+  "location": "Canberra, ACT",
+  "serviceArea": "Canberra and surrounding region",
+  "goals": [
+    "Increase qualified website enquiries",
+    "Improve website messaging and conversion",
+    "Understand practical AI automation options"
+  ],
+  "timeline": "Next 1-3 months",
+  "budgetRange": "Not supplied",
+  "notes": "The prospect wants a practical review and staged proposal. No login details, analytics, or private system access are available."
+}
